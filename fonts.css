@@ -1,0 +1,46 @@
+/* fonts.css */
+
+/* ============================
+   Fuente: Montserrat Finita
+   - Se carga desde la carpeta ./fonts/
+   - Se registra como "montserrat"
+   - Se indica que tiene peso 100 (fina)
+   ============================ */
+@font-face {
+  font-family: "montserrat"; /* Nombre que usarás en font-family */
+  src: url("./fonts/Montserrat-ExtraLight.ttf") format("truetype"); /* Ruta relativa al archivo de fuente */
+  font-weight: 100; /* Peso normal */
+}
+
+/* ============================
+   Fuente: Montserrat Regular
+   - Se carga desde la carpeta ./fonts/
+   - Se registra como "montserrat"
+   - Se indica que tiene peso 400 (normal)
+   ============================ */
+@font-face {
+  font-family: "montserrat"; /* Nombre que usarás en font-family */
+  src: url("./fonts/Montserrat-Regular.ttf") format("truetype"); /* Ruta relativa al archivo de fuente */
+  font-weight: 400; /* Peso normal */
+}
+
+/* ============================
+     Fuente: Montserrat Bold
+     - Igual que la anterior, pero con peso 700 (negrita)
+     - Esto permite que el navegador elija esta versión al usar "bold"
+     ============================ */
+@font-face {
+  font-family: "montserrat"; /* Debe coincidir con el anterior para que sea parte de la misma familia */
+  src: url("./fonts/Montserrat-Bold.ttf") format("truetype"); /* Archivo para la versión bold */
+  font-weight: 700; /* Peso bold */
+}
+
+/* ============================
+     Fuente: Montserrat 900
+     - Igual que la anterior, pero con peso 900 (negrita)
+     ============================ */
+@font-face {
+  font-family: "montserrat"; /* Debe coincidir con el anterior para que sea parte de la misma familia */
+  src: url("./fonts/Montserrat-Black.ttf") format("truetype"); /* Archivo para la versión bold */
+  font-weight: 900; /* Peso 900 */
+}
